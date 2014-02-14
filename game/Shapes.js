@@ -9,7 +9,7 @@ var SHAPES = {
 	    { x: 0, y: -1 },
 	    { x: 1, y: -1 }
 	],
-	image: 'media/cyanblock.png',
+	image: 'src/cyanblock.png',
 	kickType: 'i_block'
     },
     o: {
@@ -22,7 +22,7 @@ var SHAPES = {
 	    { x: -1, y: -1 },
 	    { x: 0, y: -1 }
 	],
-	image: 'media/yellowblock.png',
+	image: 'src/yellowblock.png',
 	kickType: 'standard'
     },
     j: {
@@ -35,7 +35,7 @@ var SHAPES = {
 	    { x: 0, y: 0 },
 	    { x: 1, y: 0 }
 	],
-	image: 'media/blueblock.png',
+	image: 'src/blueblock.png',
 	kickType: 'standard'
     },
     l: {
@@ -48,7 +48,7 @@ var SHAPES = {
 	    { x: 1, y: 0 },
 	    { x: 1, y: -1 }
 	],
-	image: 'media/orangeblock.png',
+	image: 'src/orangeblock.png',
 	kickType: 'standard'
     },
     s: {
@@ -61,7 +61,7 @@ var SHAPES = {
 	    { x: 0, y: -1 },
 	    { x: 1, y: -1 }
 	],
-	image: 'media/greenblock.png',
+	image: 'src/greenblock.png',
 	kickType: 'standard'
     },
     z: {
@@ -74,7 +74,7 @@ var SHAPES = {
 	    { x: 0, y: 0 },
 	    { x: 1, y: 0 }
 	],
-	image: 'media/redblock.png',
+	image: 'src/redblock.png',
 	kickType: 'standard'
     },
     t: {
@@ -87,7 +87,7 @@ var SHAPES = {
 	    { x: 0, y: -1 },
 	    { x: 1, y: 0 }
 	],
-	image: 'media/purpleblock.png',
+	image: 'src/purpleblock.png',
 	kickType: 'standard'
     }
     

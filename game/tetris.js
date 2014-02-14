@@ -63,8 +63,8 @@ function Tetris(controller) {
 	Tetris.currentInstance = self;
 	game = new Game(inputAssignments, autoRepeatConfig, thresholdConfig);
 
-	continueButton = new Button({image: 'media/buttons/continue.png', x: 250, y: 150});
-	restartButton = new Button({image: 'media/buttons/restart.png', x: 250, y: 200});
+	continueButton = new Button({image: 'img/buttons/continue.png', x: 250, y: 150});
+	restartButton = new Button({image: 'img/buttons/restart.png', x: 250, y: 200});
 	
 	background = new Background();
 
@@ -185,22 +185,22 @@ function Tetris(controller) {
 window.onload = function () {
     loadGameControls();
 
-    jaws.assets.add('media/blueblock.png');
-    jaws.assets.add('media/cyanblock.png');
-    jaws.assets.add('media/greenblock.png');
-    jaws.assets.add('media/orangeblock.png');
-    jaws.assets.add('media/purpleblock.png');
-    jaws.assets.add('media/redblock.png');
-    jaws.assets.add('media/yellowblock.png');
+    jaws.assets.add('img/blueblock.png');
+    jaws.assets.add('img/cyanblock.png');
+    jaws.assets.add('img/greenblock.png');
+    jaws.assets.add('img/orangeblock.png');
+    jaws.assets.add('img/purpleblock.png');
+    jaws.assets.add('img/redblock.png');
+    jaws.assets.add('img/yellowblock.png');
 
-    jaws.assets.add('media/greyblock.png');
-    jaws.assets.add('media/emptyblock.png');
+    jaws.assets.add('img/greyblock.png');
+    jaws.assets.add('img/emptyblock.png');
 
-    jaws.assets.add('media/buttons/continue.png');
-    jaws.assets.add('media/buttons/restart.png');
+    jaws.assets.add('img/buttons/continue.png');
+    jaws.assets.add('img/buttons/restart.png');
 
-    jaws.assets.add('media/background/backdrop.png');
-    jaws.assets.add('media/background/topbar.png');
+    jaws.assets.add('img/background/backdrop.png');
+    jaws.assets.add('img/background/topbar.png');
 
     jaws.start(TetrisControl);
 };

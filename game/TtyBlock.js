@@ -63,11 +63,11 @@ TtyBlock.prototype.draw = function (dTime) {
 
     // print all of the lines but the last one
     for (i = 0; i < this.lines.length - 1; i += 1) {
-	outputString += this.lines[i] + "<br/>";
+	outputString += this.lines[i] + "";
     }
     outputString += lastLine.slice(0, Math.min(this.curPos, lastLine.length));
     if (this.cursorShown) {
-	outputString += "_";
+	outputString += "";
     }
     // rewirte for html gaurds
     outputString.replace('>', '&gt');

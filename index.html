@@ -3,25 +3,25 @@
     <title>TwitchTetris</title>
     <link href="http://fonts.googleapis.com/css?family=VT323" rel="stylesheet" type="text/css" />
 
-    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
 
-    <script src="../js/cookie.js"></script>
+    <script src="js/cookie.js"></script>
 
-    <script src="../game/gameControls.js"></script>
-    <script src="../game/jawsjs.js"></script>
-    <script src="../game/Block.js"></script>
-    <script src="../game/Shapes.js"></script>
-    <script src="../game/WallKicks.js"></script>
-    <script src="../game/ControlGroup.js"></script>
-    <script src="../game/Background.js"></script>
-    <script src="../game/RandomBag.js"></script>
-    <script src="../game/PreviewGroup.js"></script>
-    <script src="../game/ScoreTracker.js"></script>
-    <script src="../game/TtyBlock.js"></script>
-    <script src="../game/Game.js"></script>
-    <script src="../game/Game_Logic.js"></script>
-    <script src="../game/Button.js"></script>
-    <script src="../game/tetris.js"></script>
+    <script src="game/gameControls.js"></script>
+    <script src="game/jawsjs.js"></script>
+    <script src="game/Block.js"></script>
+    <script src="game/Shapes.js"></script>
+    <script src="game/WallKicks.js"></script>
+    <script src="game/ControlGroup.js"></script>
+    <script src="game/Background.js"></script>
+    <script src="game/RandomBag.js"></script>
+    <script src="game/PreviewGroup.js"></script>
+    <script src="game/ScoreTracker.js"></script>
+    <script src="game/TtyBlock.js"></script>
+    <script src="game/Game.js"></script>
+    <script src="game/Game_Logic.js"></script>
+    <script src="game/Button.js"></script>
+    <script src="game/tetris.js"></script>
 
 
     <script>
@@ -36,41 +36,6 @@
   <body>
     <table border="0" class="mainTable">
       <tr>
-	<td class="menuCell">
-	  <div class="menu">
-	    <img class="menuLogo" src="media/background/logo.png"></img>
-	    <br/><br/>
-
-	    <a href="index.html" class="bareLink">
-	      <div class="menuItem selectedMenuItem">Play TwitchTetris</div>
-	    </a>
-	    <br/>
-	    <a href="controls.html" class="bareLink">
-	      <div class="menuItem">Controls Options</div>
-	    </a>
-	    <br/>
-	    <a href="highScores.html" class="bareLink">
-	      <div class="menuItem">High Scores</div>
-	    </a>
-	    <br/>
-	    <a href="about.html" class="bareLink">
-	      <div class="menuItem">About TwitchTetris</div>
-	    </a>
-	    <br/>
-	    <a href="http://www.leighpauls.com" class="bareLink">
-	      <div class="menuItem">About the Developer</div>
-	    </a>
-	    <br/>
-
-	    <div class="instructions">
-	      <b> &gt TwitchTetris --help </b>
-	      <p>Use the keyboard controls to rotate and move the blocks as they fall</p>
-	      <p>Place the blocks to form horizontal lines, which will be removed and make all the blocks above fall down. If the blocks reach the top of the screen, the game is over!</p>
-	      <p>Clear multiple lines at a time, or clear lines in consective moves to earn more points.</p>
-	    </div>
-
-	  </div>
-	</td>
 	<td class="contentCell">
 	  <div class="gamePanel">
 	
@@ -84,7 +49,7 @@
 		<div style="padding:5px;" id="gameEndDiv"></div>
 	      </div>
 	      
-	      <canvas class="gameCanvas" id="gameCanvas" width="600" height="500" onclick="onClickEvent(event)" class="gameCanvas">Your browser does not natively support Html5, or the Canvas Tag. Using this browser is slowing the progress of the web. Please get a modern browser, such as Google Chrome or Mozzila FireFox</canvas>
+	      <canvas class="gameCanvas" id="gameCanvas" width="1000" height="500" onclick="onClickEvent(event)" class="gameCanvas">Your browser does not natively support Html5, or the Canvas Tag. Using this browser is slowing the progress of the web. Please get a modern browser, such as Google Chrome or Mozzila FireFox</canvas>
 	    </div>
 	    <div class="controlsTitle">
 	      <br/>

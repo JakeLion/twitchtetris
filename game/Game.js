@@ -15,7 +15,7 @@ function Game(inputMapping, autoRepeat, threshold) {
 
     this.scoreOutput = new TtyBlock("scoreDiv", 3);
     this.linesOutput = new TtyBlock("linesDiv", 3);
-    this.levelOutput = new TtyBlock("levelDiv", 3);
+    this.levelOutput = new TtyBlock("levelDiv", 2);
     this.tickerOutput = new TtyBlock("tickerDiv", 5);
     this.scoreTracker = new ScoreTracker(this.scoreOutput, this.linesOutput, this.levelOutput, this.tickerOutput);
 

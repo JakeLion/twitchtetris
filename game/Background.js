@@ -19,12 +19,12 @@ var Background = function (config) {
 	}
     }
 
-    this.backdrop = new jaws.Sprite({image: 'media/background/backdrop.png'});
+    this.backdrop = new jaws.Sprite({image: 'img/background/backdrop.png'});
     this.backdrop.x = 0;
     this.backdrop.y = 0;
 
-    this.topBar = new jaws.Sprite({image: 'media/background/topbar.png'});
-    this.topBar.x = 181;
+    this.topBar = new jaws.Sprite({image: 'img/background/topbar.png'});
+    this.topBar.x = 180;
     this.topBar.y = 0;
 
     this.fullRedrawNeeded = true;
@@ -48,7 +48,7 @@ Background.prototype.draw = function (lastPaused) {
 	this.topBar.draw();
 
 	// clear the swap group / previews
-	jaws.context.fillstyle = "#000D00";
+	jaws.context.fillstyle = "#FFFFFF";
 	jaws.context.fillRect(24, 42, 118, 60);
 	jaws.context.fillRect(457, 18, 107, 341);
 
